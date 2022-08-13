@@ -1,0 +1,104 @@
+
+Syntax for CSS
+
+Selector {
+	property; value;
+}
+
+
+*/
+ in CSS we have SPECIFICITY RULE 
+Higer Priority (Id)
+(Class)
+(Element)
+Least Priority(Universal) 
+/*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*/
+
+
+
+/* Universal Selector */
+* {
+	font-family: "Roboto", sans-serif;
+
+}
+
+/* Element Selector */
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+	border: 5px solid red;
+	border-radius: 20%;
+}
+
+/* ID Selector */
+#landing {
+	/*viewport height ---- determined or measured percentage of the height of the device
+	 you are viewing your in*/
+	height: 90vh;
+	/*flexible responsive layouts from left to right*/
+	/*flexbox --> allows us to arrange or layout elements inside our landing section 
+	horizontally or vertically
+	 	by default, display:  flex, arrange elements inside the  parent element*/
+	display: flex;
+	/*flex-direction:  column; --> arranges flex items into a column*/
+	flex-direction: column;
+	/*justify-content:  center; --> arranges elements horizontally if the  flex items 
+	are in a row however, it arranges elements  vertically if the flex  items are in a column*/
+	justify-content: center;
+	/*align-items:  center; arranges all flex items to be centered vertically*/
+	align-items: center;
+}
+
+#gallery {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+/*Class Selector*/
+.tools {
+	border: 5px solid #f2f2f2;
+	height: 200px;
+	width: 75%;
+	margin: 20px;
+	padding: 25px;
+
+}
+
+h2 {
+	color: #007bff;
+}
+
+/*makes the scrolling of the page smooth*/
+html {
+
+}
+
+
+
+/*
+m => margin
+p => padding
+
+t => top
+s => for start or left
+e => for end or right
+b => bottom
+
+x => x-axis
+y => y-axis
+
+1-5 or auto
+
